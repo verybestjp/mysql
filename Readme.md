@@ -229,6 +229,7 @@ issue [#501](https://github.com/mysqljs/mysql/issues/501). (Default: `false`)
 * `trace`: Generates stack traces on `Error` to include call site of library
    entrance ("long stack traces"). Slight performance penalty for most calls.
    (Default: `true`)
+* `localInfile`: Allow `LOAD DATA INFILE` to use the `LOCAL` modifier. (Default: `true`)
 * `multipleStatements`: Allow multiple mysql statements per query. Be careful
   with this, it could increase the scope of SQL injection attacks. (Default: `false`)
 * `flags`: List of connection flags to use other than the default ones. It is

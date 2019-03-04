@@ -6,6 +6,7 @@ you spot any mistakes.
 
 ## HEAD
 
+* Add `localInfile` option to disable `LOAD DATA LOCAL INFILE`
 * Fix `connection.threadId` missing on handshake failure
 * Fix duplicate packet name in debug output
 * Fix no password support for old password protocol
